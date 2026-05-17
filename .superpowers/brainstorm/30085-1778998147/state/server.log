@@ -1,8 +1,0 @@
-{"type":"server-started","port":50319,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:50319","screen_dir":"/home/yangjian/Workspace/project/quartz/.superpowers/brainstorm/30085-1778998147/content","state_dir":"/home/yangjian/Workspace/project/quartz/.superpowers/brainstorm/30085-1778998147/state"}
-{"type":"screen-added","file":"/home/yangjian/Workspace/project/quartz/.superpowers/brainstorm/30085-1778998147/content/style-directions.html"}
-{"source":"user-event","type":"click","text":"A\n    \n      极简学术风\n      大量留白、柔和灰调、衬线标题字体。类似学术论文或文档站，专注阅读体验，克制而无干扰。适合深度技术长文。","choice":"minimal","id":null,"timestamp":1778998285149}
-{"source":"user-event","type":"click","text":"C\n    \n      暗色沉浸风\n      默认暗色主题、深邃背景、低亮度高可读性。类似 IDE 暗色模式的沉浸感，减少视觉疲劳，适合长时间阅读的极客向博客。","choice":"dark","id":null,"timestamp":1778998295033}
-{"source":"user-event","type":"click","text":"A\n    \n      极简学术风\n      大量留白、柔和灰调、衬线标题字体。类似学术论文或文档站，专注阅读体验，克制而无干扰。适合深度技术长文。","choice":"minimal","id":null,"timestamp":1778998303044}
-{"type":"screen-added","file":"/home/yangjian/Workspace/project/quartz/.superpowers/brainstorm/30085-1778998147/content/color-palette.html"}
-{"source":"user-event","type":"click","text":"A\n    \n      暖调学术\n      奶油底色 + 琥珀/棕褐强调色。温暖而经典，类似旧书页和老图书馆的氛围，适合人文与技术交叉内容。","choice":"warm","id":null,"timestamp":1778998411890}
-{"type":"screen-added","file":"/home/yangjian/Workspace/project/quartz/.superpowers/brainstorm/30085-1778998147/content/final-design.html"}
