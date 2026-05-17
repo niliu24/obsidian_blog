@@ -1,0 +1,64 @@
+<h2>极简学术风 — 选择配色方案</h2>
+<p class="subtitle">在极简灰调基础上，选择你偏好的色彩倾暖向</p>
+
+<div class="options">
+  <div class="option" data-choice="warm" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>暖调学术</h3>
+      <p>奶油底色 + 琥珀/棕褐强调色。温暖而经典，类似旧书页和老图书馆的氛围，适合人文与技术交叉内容。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="cool" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>冷调学术</h3>
+      <p>纯白/冷灰底色 + 钢蓝/墨绿强调色。冷静理性，类似 IEEE 论文和学术期刊，适合硬核技术内容。</p>
+    </div>
+  </div>
+</div>
+
+<div class="label">视觉对比</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+  <div style="border: 1px solid var(--border); border-radius: 12px; overflow: hidden;">
+    <div style="background: #fdfaf3; padding: 1.2rem; min-height: 240px; font-family: 'Georgia', serif;">
+      <div style="font-family: 'Georgia', serif; font-size: 1.1rem; color: #3d2e1e; font-weight: 700;">进程地址空间布局</div>
+      <div style="font-size: 0.7rem; color: #8b7355; margin-top: 0.3rem; font-family: -apple-system, sans-serif;">2026-05-17 · 12 min read</div>
+      <div style="height: 1px; background: #d4c5b2; margin: 0.8rem 0;"></div>
+      <div style="font-size: 0.8rem; color: #5c4a3a; line-height: 1.6; font-family: -apple-system, sans-serif;">
+        每个进程拥有独立的虚拟地址空间，由 <code style="background: #efe5d5; color: #a0522d; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.75rem;">mm_struct</code> 描述。内核通过缺页中断按需映射物理页面，实现内存隔离与高效利用。
+      </div>
+      <div style="display: flex; gap: 0.3rem; margin-top: 0.8rem;">
+        <span style="background: #c17817; color: white; padding: 0.15rem 0.45rem; border-radius: 99px; font-size: 0.6rem; font-family: -apple-system, sans-serif;">linux</span>
+        <span style="background: #8b7355; color: white; padding: 0.15rem 0.45rem; border-radius: 99px; font-size: 0.6rem; font-family: -apple-system, sans-serif;">memory</span>
+      </div>
+      <div style="margin-top: 0.8rem; font-size: 0.7rem; color: #c17817; font-family: -apple-system, sans-serif;">
+        #linux #kernel #memory-management
+      </div>
+    </div>
+    <div style="font-size: 0.65rem; text-align: center; padding: 0.4rem; background: #f5f0e8; color: #8b7355;">
+      A · 暖调 — cream + amber + brown
+    </div>
+  </div>
+  <div style="border: 1px solid var(--border); border-radius: 12px; overflow: hidden;">
+    <div style="background: #f8f9fa; padding: 1.2rem; min-height: 240px; font-family: 'Georgia', serif;">
+      <div style="font-family: 'Georgia', serif; font-size: 1.1rem; color: #1a2332; font-weight: 700;">进程地址空间布局</div>
+      <div style="font-size: 0.7rem; color: #5e6e82; margin-top: 0.3rem; font-family: -apple-system, sans-serif;">2026-05-17 · 12 min read</div>
+      <div style="height: 1px; background: #d0d7de; margin: 0.8rem 0;"></div>
+      <div style="font-size: 0.8rem; color: #2c3e50; line-height: 1.6; font-family: -apple-system, sans-serif;">
+        每个进程拥有独立的虚拟地址空间，由 <code style="background: #e8ecf1; color: #1a56a4; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.75rem;">mm_struct</code> 描述。内核通过缺页中断按需映射物理页面，实现内存隔离与高效利用。
+      </div>
+      <div style="display: flex; gap: 0.3rem; margin-top: 0.8rem;">
+        <span style="background: #2c5f8a; color: white; padding: 0.15rem 0.45rem; border-radius: 99px; font-size: 0.6rem; font-family: -apple-system, sans-serif;">linux</span>
+        <span style="background: #4a7c59; color: white; padding: 0.15rem 0.45rem; border-radius: 99px; font-size: 0.6rem; font-family: -apple-system, sans-serif;">memory</span>
+      </div>
+      <div style="margin-top: 0.8rem; font-size: 0.7rem; color: #2c5f8a; font-family: -apple-system, sans-serif;">
+        #linux #kernel #memory-management
+      </div>
+    </div>
+    <div style="font-size: 0.65rem; text-align: center; padding: 0.4rem; background: #eef1f5; color: #5e6e82;">
+      B · 冷调 — white + steel + teal
+    </div>
+  </div>
+</div>

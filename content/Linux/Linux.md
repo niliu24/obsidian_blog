@@ -26,5 +26,7 @@ type: index
 * [中断处理](中断处理/中断处理.md) — 顶半部/底半部、软中断/tasklet/workqueue
 * [内核同步](内核同步/内核同步.md) — spinlock/mutex/RCU/原子操作
 * [系统调用](系统调用/系统调用.md) — syscall 机制、调用约定、VDSO、strace/ptrace、自定义 syscall
+  * [ioctl](系统调用/具体API/ioctl.md) — 设备控制通道、命令码构造、驱动实现
+  * [mmap](系统调用/具体API/mmap.md) — 内存映射 I/O、共享内存、驱动 mmap 实现
 * [内核启动](内核启动.md) — BIOS/UEFI→BootLoader→内核初始化→init 进程
 * [eBPF](eBPF.md) — 内核沙箱虚拟机、XDP/tracing/cgroup hook
