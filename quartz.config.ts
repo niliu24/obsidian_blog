@@ -20,12 +20,12 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "local",
       cdnCaching: true,
       typography: {
-        header: "Libre Baskerville",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "LXGW WenKai",
+        body: "LXGW WenKai",
+        code: "LXGW WenKai Mono",
       },
       colors: {
         lightMode: {
@@ -88,8 +88,8 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // CustomOgImages disabled: requires googleFonts origin for Satori font loading
+      // Plugin.CustomOgImages(),
     ],
   },
 }
