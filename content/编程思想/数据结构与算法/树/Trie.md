@@ -153,8 +153,8 @@ aliases:
 ## 相关文档
 
 - [二叉树基础](二叉树基础.md) — 二叉树遍历与属性
-- [图](图.md) — Aho-Corasick 中的 failure link 类似图的边
-- [查找算法](查找算法.md) — Trie 是字符串的另一种查找结构
+- [图](../图.md) — Aho-Corasick 中的 failure link 类似图的边
+- [查找算法](../查找算法.md) — Trie 是字符串的另一种查找结构
 
 ## 来源
 
