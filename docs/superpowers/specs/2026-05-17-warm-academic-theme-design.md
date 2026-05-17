@@ -8,17 +8,17 @@
 
 ### Light Mode
 
-| Token | Color | Usage |
-|-------|-------|-------|
-| `light` | `#fdfaf3` | 页面背景，奶油白 |
-| `lightgray` | `#efe5d5` | 代码背景、分割线、标签背景 |
-| `gray` | `#b8a88a` | 次要文字、边框 |
-| `darkgray` | `#5c4a3a` | 正文文字 |
-| `dark` | `#3d2e1e` | 标题、强调文字 |
-| `secondary` | `#c17817` | 链接、强调色 |
-| `tertiary` | `#8b6914` | hover 链接、次要强调 |
-| `highlight` | `rgba(193, 120, 23, 0.12)` | 内部链接高亮背景 |
-| `textHighlight` | `#f5d78a88` | 文字高亮标记 |
+| Token           | Color                      | Usage                      |
+| --------------- | -------------------------- | -------------------------- |
+| `light`         | `#fdfaf3`                  | 页面背景，奶油白           |
+| `lightgray`     | `#efe5d5`                  | 代码背景、分割线、标签背景 |
+| `gray`          | `#b8a88a`                  | 次要文字、边框             |
+| `darkgray`      | `#5c4a3a`                  | 正文文字                   |
+| `dark`          | `#3d2e1e`                  | 标题、强调文字             |
+| `secondary`     | `#c17817`                  | 链接、强调色               |
+| `tertiary`      | `#8b6914`                  | hover 链接、次要强调       |
+| `highlight`     | `rgba(193, 120, 23, 0.12)` | 内部链接高亮背景           |
+| `textHighlight` | `#f5d78a88`                | 文字高亮标记               |
 
 ### Dark Mode
 
